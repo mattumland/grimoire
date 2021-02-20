@@ -71,6 +71,7 @@ h3 {
 
 h1{
   font-size: 40px;
+  font-weight: 400;
   color: #222222;
   margin: 0 0 35px 0;
 }
@@ -78,7 +79,7 @@ h1{
 
 .spell-card {
   width:25%;
-
+  filter: drop-shadow(2px 0px 4px #222222);
 }
 
 .card-top {
@@ -91,7 +92,7 @@ h1{
 
 .spell-pic {
   width: 100%;
-  height: 180px;
+  height: 170px;
   grid-column: 1 / 3;
   grid-row: 1 / 3;
   object-fit: cover;
@@ -123,7 +124,35 @@ h1{
 }
 
 /* Spell card text */
+.card-text {
+  background-color: #573765;
+  color: #ffffff;
+  padding: 20px;
+}
 
+.school {
+  font-size: 14px;
+  color: #a89c9c;
+}
+
+blockquote {
+  background-color: #a89c9c;
+  font-style: italic;
+  padding: 10px;
+  margin: 20px 10px 20px 0;
+}
+
+.magic-words {
+  font-size: 20px;
+  font-style: italic;
+  margin: 3px 0 17px 0;
+}
+
+.complexity {
+  font-size: 40px;
+  font-weight: 400;
+  color: #d54221;
+}
 
 /*  black #222222
     red #d54221
