@@ -64,9 +64,17 @@ h3 {
 }
 
 
-/* Spell list card grid */
+/* Spell card grid */
 .spell-list {
   padding: 40px 35px 0 35px;
+}
+
+.spell-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 h1{
@@ -77,8 +85,8 @@ h1{
 }
 
 
+/* Spell card */
 .spell-card {
-  width:25%;
   filter: drop-shadow(2px 0px 4px #222222);
 }
 
@@ -86,8 +94,6 @@ h1{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
 }
 
 .spell-pic {
